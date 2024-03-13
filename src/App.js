@@ -12,9 +12,7 @@ export default function App() {
       <SideComp />
       
       <NavComp />
-   
-
- 
+      <div id="worldmap" className="w-full" style="min-height: 18rem"></div>
     </div>
   );
 }
