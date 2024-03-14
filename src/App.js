@@ -1,6 +1,7 @@
 import React from "react";
 import NavComp from "./components/NavComp";
 import SideComp from "./components/SideComp";
+
 import "./App.css"; // Import CSS file
 
 export default function App() {
@@ -12,7 +13,8 @@ export default function App() {
       <SideComp />
       
       <NavComp />
-      <div id="worldmap" className="w-full" style="min-height: 18rem"></div>
+      
+      
     </div>
   );
 }

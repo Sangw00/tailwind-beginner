@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Login from "./Login";
 export default function NavComp() {
   return (
     <div className="flex-1">
@@ -51,6 +51,7 @@ export default function NavComp() {
 
         </div>
       </nav>
+      <Login />
     </div>
   );
 }
