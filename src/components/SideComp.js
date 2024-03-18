@@ -20,16 +20,6 @@ export default function SideComp() {
   <path fillRule="evenodd" d="M7.5 6v.75H5.513c-.96 0-1.764.724-1.865 1.679l-1.263 12A1.875 1.875 0 0 0 4.25 22.5h15.5a1.875 1.875 0 0 0 1.865-2.071l-1.263-12a1.875 1.875 0 0 0-1.865-1.679H16.5V6a4.5 4.5 0 1 0-9 0ZM12 3a3 3 0 0 0-3 3v.75h6V6a3 3 0 0 0-3-3Zm-3 8.25a3 3 0 1 0 6 0v-.75a.75.75 0 0 1 1.5 0v.75a4.5 4.5 0 1 1-9 0v-.75a.75.75 0 0 1 1.5 0v.75Z" clipRule="evenodd" />
 </svg>
 </span>} name="Products"/>
-          
-          
-          <li>
-            <a href="#" className="flex flex-row items-center h-12 transform hover:translate-x-2 transition-transform ease-in duration-200 text-gray-700 hover:text-blue -500">
-              <span className="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-500"><i className="bx bx-bell"></i></span>
-              <span className="text-sm font-medium">Notifications</span>
-              <span className="ml-auto mr-6 text-sm bg-blue-100 rounded-full px-3 py-px text-blue-500">5</span>
-            </a>
-          </li>
-         
         </ul>
       </div>
     </div>
