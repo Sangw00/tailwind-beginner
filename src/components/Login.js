@@ -1,5 +1,5 @@
-import Input from "./Input";
-import Button from "./Button";
+import MyInput from "./MyInput";
+import Button from "./MyButton";
 import { Link } from "react-router-dom";
 import React,{useState} from "react";
 import authService from '../authService';
@@ -39,12 +39,13 @@ export default function Login() {
     <form className="max-w-sm mx-auto pb-20 " method='POST' encType="multipart/form-data" onSubmit={handleSubmit}>
       <div className="mt-10 pt-10 text-2xl mx-auto pb-20 w-full max-w-md bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
         Log in
-        <Input type="text" name="email" onChange={handleChange}  label="Your email" placeholder="ex: someone@domaine" />
-        <Input type="password" name="password" onChange={handleChange}  label="Your password" placeholder="**************" />
+        <MyInput type="text" name="email" onChange={handleChange}  label="Your email" placeholder="ex: someone@domaine" />
+        <MyInput type="password" name="password" onChange={handleChange}  label="Your password" placeholder="**************"  />
         <Button name="log in" />
         <div className="flex items-center justify-between pb-6">
           <p className="mb-0 text-sm">Don't have an account?</p>
           <Button name={<Link to="/register">Register</Link>} />
+          
         </div>
       </div>
     </form>

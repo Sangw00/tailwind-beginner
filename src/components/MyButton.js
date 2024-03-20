@@ -1,7 +1,7 @@
 
 
 
- export default function Button(props){
+ export default function MyButton(props){
 
     const name = props.name;
     return (

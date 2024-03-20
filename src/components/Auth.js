@@ -10,8 +10,8 @@ function Auth() {
   if (isAuthenticated) {
     return (
       <>
-        <div className="h-10 w-10 relative mt-2">
-          <span className="relative inline-block">
+        <div className="h-10 w-10 relative mt-2 ">
+          <span className="relative inline-block  dark:bg-gray-700  dark:text-white">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-10 h-10 ml-6">
               <path
                 strokeLinecap="round"
@@ -28,12 +28,12 @@ function Auth() {
           </button>
         </div>
 
-        <div className="mt-2">
+        <div className="mt-2  dark:bg-gray-700  dark:text-white">
           <div className="text-sm font-medium text-secondary-500">{userName}</div>
           <div className="text-xs text-secondary-400">Joined {at}</div>
         </div>
 
-        <div id="userDropdown" className="z-10 hidden bg-white rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+        <div id="userDropdown" className="z-10 hidden bg-white rounded-lg shadow w-44 dark:bg-gray-700  dark:text-white">
           <ul className="py-2 text-sm text-gray-700 dark:text-gray-200 list-none" aria-labelledby="avatarButton">
             <li>
             <Link to="/" className="flex flex-row items-center h-12 transform hover:translate-x-2 transition-transform ease-in duration-200 text-gray-700 hover:text-blue-500">

@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Input(props) {
+export default function MyInput(props) {
   const { type, name, value, label, onChange, placeholder } = props;
 
   return (
