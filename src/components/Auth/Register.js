@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import authService from '../authService';
+import authService from './authService';
 import { useNavigate } from "react-router-dom";
-import MyInput from "./MyInput";
-import Button from "./MyButton";
+import MyInput from "../MyInput";
+import Button from "../MyButton";
 
 export default function Register() {
   const [formData, setFormData] = useState({

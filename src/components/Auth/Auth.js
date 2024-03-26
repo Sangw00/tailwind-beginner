@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import authService from '../authService';
+import authService from './authService';
 
 function Auth() {
   const isAuthenticated = authService.isAuthenticated();

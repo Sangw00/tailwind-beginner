@@ -1,5 +1,5 @@
 import axios from 'axios';
-import authService from './authService';
+import authService from './components/Auth/authService';
 
 const BASE_BACKEND_URL = 'http://127.0.0.1:8000/api';
 

@@ -1,8 +1,8 @@
-import MyInput from "./MyInput";
-import Button from "./MyButton";
+import MyInput from "../MyInput";
+import Button from "../MyButton";
 import { Link } from "react-router-dom";
 import React,{useState} from "react";
-import authService from '../authService';
+import authService from './authService';
 import { useNavigate } from "react-router-dom";
 
 export default function Login() {
